@@ -5,17 +5,20 @@
   line-height: 1.06;
   text-align: center;
   margin: 0 auto;
+  padding: 245px 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
     max-width: calc(100% - 464px);
+    padding: 195px 0 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
     max-width: calc(100% - 208px);
+    padding: 115px 0 0 0;
   }
 }
 
@@ -24,5 +27,6 @@
     max-width: calc(100% - 32px);
     font-size: 32px;
     line-height: 1.09;
+    padding: 33px 0 0 0;
   }
 }
