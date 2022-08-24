@@ -5,6 +5,7 @@
   text-decoration: none;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
+  margin-top: 12px;
 }
 
 .place__link:hover {

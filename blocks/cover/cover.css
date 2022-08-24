@@ -5,6 +5,8 @@
   margin-top: 92px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 740px;
 }
 
 .cover:hover {
@@ -25,14 +27,12 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    margin-top: 90px;
-    max-width: 100%;
+    margin-top: 90px;    
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    margin-top: 66px;
-    max-width: 100%;
+    margin-top: 66px;    
   }
 }
