@@ -17,3 +17,9 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: calc(100% - 4px);
+  }
+}
+
