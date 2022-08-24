@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .photo_content {
+    .photo__content {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(4, 1fr);
       gap: 14px;
@@ -22,13 +22,12 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 1fr);
       gap: 16px;
-      max-width: calc(100% - 48px);
       object-fit: cover;
     }
   }
 
   @media screen and (max-width: 320px) {
-    .photo {
+    .photo__content {
       max-width: calc(100% - 32px);
       grid-template-columns: repeat(1, 1fr);
       gap: 12px;
