@@ -5,10 +5,11 @@
   text-align: right;
 }
 
-@media screen and (min-width: 320px) and (max-width: 458px) {
+@media screen and (min-width: 320px) and (max-width: 510px) {
   .footer__copyright {
     line-height: 1;
     text-align: left;
     margin-top: 48px;
+    align-self: flex-start;
   }
 }
